@@ -5,6 +5,7 @@ import '@/app/globals.css';
 import { Inter } from 'next/font/google';
 // Providers
 import ReduxProvider from '@/providers/redux-provider';
+import ThemeProvider from '@/providers/theme-provider';
 
 const inter = Inter({ variable: '--font-inter', weight: ['300', '400', '500', '600', '700', '800'], subsets: ['latin'] });
 
@@ -19,9 +20,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} antialiased`}>
-        <ReduxProvider>{children} </ReduxProvider>
+        <ReduxProvider>
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+            {children}
+          </ThemeProvider>
+        </ReduxProvider>
       </body>
     </html>
   );
