@@ -4,6 +4,7 @@ import '@/app/globals.css';
 // Font
 import { Inter } from 'next/font/google';
 // Providers
+import { NextIntlClientProvider, useLocale } from 'next-intl';
 import ReduxProvider from '@/providers/redux-provider';
 import ThemeProvider from '@/providers/theme-provider';
 
@@ -14,17 +15,14 @@ export const metadata: Metadata = {
   description: 'Roodx Social media app',
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const locale = useLocale();
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning>
       <body className={`${inter.variable} antialiased`}>
         <ReduxProvider>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-            {children}
+            <NextIntlClientProvider>{children}</NextIntlClientProvider>
           </ThemeProvider>
         </ReduxProvider>
       </body>
