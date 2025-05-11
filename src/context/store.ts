@@ -1,11 +1,15 @@
 import { configureStore } from '@reduxjs/toolkit';
-// API slices
+// API 
+import { locationapiSlice } from './features/api/locationApi';
 import { serverApi } from './features/api/serverApi';
 // Reducers
+import locationReducer from './features/setting/locationSlice';
 
 const store = configureStore({
   reducer: {
+    [locationapiSlice.reducerPath]: locationapiSlice.reducer,
     [serverApi.reducerPath]: serverApi.reducer,
+    location: locationReducer,
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(serverApi.middleware),
 });

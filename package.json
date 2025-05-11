@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-avatar": "^1.1.9",
     "@radix-ui/react-collapsible": "^1.1.10",
     "@radix-ui/react-dialog": "^1.1.13",
@@ -21,19 +22,28 @@
     "@reduxjs/toolkit": "^2.7.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "cmdk": "^1.1.1",
     "date-fns": "^3.6.0",
+    "google-libphonenumber": "^3.2.40",
+    "js-cookie": "^3.0.5",
     "lucide-react": "^0.507.0",
+    "motion": "^12.10.5",
     "next": "15.3.1",
+    "next-intl": "^4.1.0",
     "next-themes": "^0.4.6",
     "react": "^19.0.0",
     "react-day-picker": "^8.10.1",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.56.3",
     "react-redux": "^9.2.0",
-    "tailwind-merge": "^3.2.0"
+    "tailwind-merge": "^3.2.0",
+    "zod": "^3.24.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/google-libphonenumber": "^7.4.30",
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

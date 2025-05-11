@@ -60,7 +60,7 @@
 
   --background: var(--roodx-background);
   --foreground: var(--roodx-headingText);
-  --card: oklch(1 0 0);
+  --card: var(--roodx-card);
   --card-foreground: oklch(0.141 0.005 285.823);
   --popover: var(--roodx-background);
   --popover-foreground: oklch(0.141 0.005 285.823);
@@ -106,7 +106,7 @@
 
   --background: var(--roodx-background);
   --foreground: var(--roodx-headingText);
-  --card: oklch(0.21 0.006 285.885);
+  --card: var(--roodx-card);
   --card-foreground: oklch(0.985 0 0);
   --popover: var(--roodx-background);
   --popover-foreground: oklch(0.985 0 0);

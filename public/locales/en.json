@@ -1,0 +1,240 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+
+  "Error": {
+    "userEmptyError": "Please provide an email, username, or phone number.",
+    "emailOrPhonEmptyError": "Please provide a valid email or phone number.",
+
+    "fieldRequired": "This field is required.",
+    "field3characters": "Field must be at least 3 characters long.",
+    "field50TooLong": "Field must not exceed 50 characters.",
+    "field100TooLong": "Field must not exceed 100 characters.",
+    "fieldFormatError": "Field cannot contain numbers.",
+
+    "invalidEmailFormat": "Invalid email format.",
+    "emailTooShort": "Email must be at least 5 characters long.",
+    "emailTooLong": "Email must not exceed 255 characters.",
+
+    "invalidUserNameFormat": "Username can only contain letters, numbers, and underscores, and must start with a letter.",
+    "userNameTooShort": "Username must be at least 3 characters long.",
+    "userNameTooLong": "Username must not exceed 20 characters.",
+
+    "passwordEmptyError": "Password cannot be empty.",
+    "password6CharactersError": "Password must be at least 6 characters long.",
+    "passwordTooLongError": "Password must not exceed 255 characters.",
+    "passwordRequiresUppercase": "Password must contain at least one uppercase letter.",
+    "passwordRequiresLowercase": "Password must contain at least one lowercase letter.",
+    "passwordRequiresNumber": "Password must contain at least one number.",
+    "passwordRequiresSpecialChar": "Password must contain at least one special character (e.g. !@#$%^&*).",
+    "passwordMismatchError": "Passwords do not match.",
+
+    "invalidPhoneNumber": "Phone number is invalid.",
+
+    "firstnameTooShort": "First name must be at least 2 characters long.",
+    "firstnameTooLong": "First name must not exceed 30 characters.",
+    "firstnameFormatError": "First name can only contain letters and spaces.",
+
+    "lastnameTooShort": "Last name must be at least 2 characters long.",
+    "lastnameTooLong": "Last name must not exceed 30 characters.",
+    "lastnameFormatError": "Last name can only contain letters and spaces.",
+
+    "requiredDate": "Please provide a valid date.",
+    "invalidDate": "The date format is invalid. Please enter a valid date.",
+    "futureDate": "The date cannot be in the future. Please enter a past or present date.",
+    "ageRestriction": "You must meet the minimum age requirement to proceed.",
+
+    "companynameEmptyError": "Company name cannot be empty.",
+    "companynameTooShortError": "Company name must be at least 3 characters long.",
+    "companynameTooLongError": "Company name must not exceed 20 characters.",
+    "companynameFormatError": "Company name can only contain letters, numbers, and underscores, and must start with a letter.",
+
+    "EmptyError": "Activation code cannot be empty.",
+    "6CharactersError": "Activation code must be exactly 6 characters long.",
+    "NumberError": "Activation code must contain only numbers.",
+
+    "nameError": "Category name must be at most 20 characters long.",
+    "ategoryFormatError": "Category name must not contain any digits.",
+    "headlineError": "Headline must not exceed 150 characters.",
+    "overviewError": "Overview must not exceed 255 characters.",
+    "skillFormatError": "Skill cannot contain numbers.",
+
+    "startDateRequired": "Start date is required.",
+    "endDateRequired": "End date is required.",
+    "descriptionToolong": "Description must not exceed 200 characters.",
+    "startDateAfterEndDate": "Start date cannot be after end date.",
+
+    "invalidUsernameOrPassword": "Invalid User Info or password",
+    "usernameAlreadyExist": "Username already exist",
+    "emailAlreadyExist": "Email already exist",
+    "phoneAlreadyExist": "Phone number already exist",
+    "InvalidActivation": "Invalid activation link",
+
+    "skilEmptyError": "Please enter your skills.",
+    "skilAlreadyAdded": "This skill is already added."
+  },
+
+  "Auth": {
+    "signup": "Sign Up",
+    "signupDescription": "Get started now by entering your email or connecting with your Microsoft or Google account.",
+
+    "personal": "Personal",
+    "company": "Company",
+
+    "login": "Log In",
+    "loginDescription": "Welcome back! Log in to Roodx using your email, Microsoft, or Google account.",
+
+    "alreadyHaveAccount": "Already have an account?",
+    "didntHaveAccount": "Don't have an account?",
+
+    "forgotPassword?": "Forgot Password?",
+    "forgotPassword": "Forgot Password",
+    "recoveryPassword": "Password Recovery",
+    "forgotPasswordDescription": "Enter the email address or phone number linked to your account, and we’ll send you instructions to reset your password.",
+    "activate": "Activate",
+    "activateCode": "Activate Code",
+    "verificationCode": "Verification Code",
+    "verificationEmailDescription": "We have just sent a 6-digit code to your email:",
+    "verificationPhoneDescription": "We have just sent a 6-digit code to your phone:",
+    "VerificationResendText": "Didn't receive the code?",
+    "VerificationResendButton": "Resend code",
+    "setNewPassword": "Set New Password",
+    "setNewPasswordButton": "Change password",
+    "setNewPasswordDescription": "Your new password must be different from previously password",
+    "successfullyPassword": "Your password has been reset",
+    "successfullyPasswordDescription": "Your password has been changed successfully. Update your password periodically.",
+    "next": "Next",
+
+    "policy": {
+      "text": "By taping 'Sign up', you agree to",
+      "the": "the",
+      "terms": "terms",
+      "and": "and",
+      "privacy": "Privacy Policy."
+    },
+
+    "input": {
+      "username": "Username",
+      "userInfoAndUsername": "Username, Email, or Phone number",
+      "userInfo": "Email or Phone number",
+      "password": "Password",
+      "confirmPassword": "Re-type Password",
+      "firstname": "First Name",
+      "lastname": "Last Name",
+      "birthday": "Birthday",
+      "companyname": "Company Name",
+      "companyDate": "Company Registration Date",
+
+      "placeholder": {
+        "username": "Enter your username",
+        "userInfo": "+90 / example@email.com",
+        "birthday": "Select your birthday -->",
+        "companyDate": "Select registration date -->",
+        "companyname": "Roodx",
+        "password": "**********"
+      }
+    }
+  },
+
+  "profile": {
+    "profile": "Profile",
+    "skils": "Skils",
+    "work": "Work",
+    "services": "Services",
+    "selling": "Selling",
+    "media": "Media",
+    "xdoor": "Xdoor",
+    "posts": "Posts",
+    "photos": "Photos",
+    "mentions": "Mentions",
+    "completeProfile": "Please complete your profile.",
+    "following": "Following",
+    "followers": "Followers",
+
+    "editProfile": "Edit Profile",
+    "editButton": "Save changes",
+
+    "section": {
+      "basic": "Basic info",
+      "location": "Location",
+      "contact": "Contact info",
+      "languages": "Languages",
+      "skils": "Skils",
+      "work": "Your work photos"
+    },
+
+    "input": {
+      "category": "Category",
+      "headline": "Headline",
+      "overview": "Overview",
+      "websitePlaceholder1": "Website Name",
+      "websitePlaceholder2": "Website Link",
+      "websiteAddButton": "Add Link",
+      "websiteRemoveButton": "Remove Link",
+      "skil": "Skil"
+    },
+
+    "addSection": "Add Section",
+    "addScreen": {
+      "cornellYearStudent": "Iam currently student in this school",
+      "cornellYearEmployee": "Iam currently working in this role",
+      "employmentType": {
+        "fullTime": "Full Time",
+        "partTime": "Part Time",
+        "internship": "Internship",
+        "freelance": "Freelance"
+      },
+      "jobType": {
+        "onSite": "On-Site",
+        "remote": "Remote",
+        "hybrid": "Hybrid"
+      },
+      "selectOption": "Select an option"
+    },
+    "addScreenInput": {
+      "school": "School",
+      "degree": "Degree",
+      "fieldOfStudy": "Field of study",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "grade": "Grade",
+      "description": "Description",
+      "title": "Title",
+      "employmentType": "Employment Type",
+      "jobType": "Job Type",
+      "companyOrOrganization": "Company Or Organization",
+      "type": "Type",
+      "country": "Country",
+      "city": "City"
+    },
+
+    "accordion": {
+      "core": "Core",
+      "coreDescription": "Start with the essentials! Completing these sections will make it easier for recruiters and connections to find you.",
+      "coreItem1": "Add Education",
+      "coreItem2": "Add Position",
+      "coreItem3": "Add Services",
+      "coreItem4": "Add Career Break",
+      "recommended": "Recommended",
+      "recommendedDescription": "Filling out these sections will boost your credibility and open the door to more opportunities.",
+      "recommendedItem1": "Add Featured",
+      "recommendedItem2": "Add Licenses & Certifications",
+      "recommendedItem3": "Add Projects",
+      "recommendedItem4": "Add Courses",
+      "recommendedItem5": "Add Recommendations",
+      "additional": "Additional",
+      "additionalDescription": "Bring more personality to your profile! These sections will help you expand your network and foster stronger connections.",
+      "additionalItem1": "Add Volunteer Experience",
+      "additionalItem2": "Add Publications",
+      "additionalItem3": "Add Patents",
+      "additionalItem4": "Add Honors & Awards",
+      "additionalItem5": "Add Test Scores",
+      "additionalItem6": "Add Organizations"
+    },
+
+    "skilText": "Suggested based on your profile",
+    "skilButton": "Add Skil"
+  }
+}

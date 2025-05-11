@@ -1,0 +1,67 @@
+{
+  "HomePage": {
+    "title": "مرحبًا بالعالم!",
+    "about": "انتقل إلى صفحة حول"
+  },
+  "Auth": {
+    "signup": "إنشاء حساب",
+    "signupDescription": "ابدأ الآن بإدخال بريدك الإلكتروني أو الاتصال بحساب Microsoft أو Google.",
+
+    "personal": "شخصي",
+    "company": "شركة",
+
+    "login": "تسجيل الدخول",
+    "loginDescription": "مرحبًا بعودتك! قم بتسجيل الدخول إلى Roodx باستخدام بريدك الإلكتروني أو حساب Microsoft أو Google.",
+
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "didntHaveAccount": "ليس لديك حساب؟",
+
+    "forgotPassword?": "هل نسيت كلمة المرور؟",
+    "forgotPassword": "نسيت كلمة المرور",
+    "recoveryPassword": "استعادة كلمة المرور",
+    "forgotPasswordDescription": "أدخل البريد الإلكتروني أو رقم الهاتف المرتبط بحسابك، وسنرسل لك تعليمات لإعادة تعيين كلمة المرور.",
+    "activate": "تفعيل",
+    "activateCode": "رمز التفعيل",
+    "verificationCode": "رمز التحقق",
+    "verificationEmailDescription": "لقد أرسلنا رمزًا مكونًا من 6 أرقام إلى بريدك الإلكتروني:",
+    "verificationPhoneDescription": "لقد أرسلنا رمزًا مكونًا من 6 أرقام إلى هاتفك:",
+    "VerificationResendText": "لم تستلم الرمز؟",
+    "VerificationResendButton": "إعادة إرسال الرمز",
+    "setNewPassword": "تعيين كلمة مرور جديدة",
+    "setNewPasswordButton": "تغيير كلمة المرور",
+    "setNewPasswordDescription": "يجب أن تكون كلمة المرور الجديدة مختلفة عن السابقة.",
+    "successfullyPassword": "تمت إعادة تعيين كلمة المرور الخاصة بك",
+    "successfullyPasswordDescription": "تم تغيير كلمة المرور بنجاح. قم بتحديثها بانتظام.",
+    "next": "التالي",
+
+    "policy": {
+      "text": "بالنقر على 'إنشاء حساب'",
+      "the": "",
+      "terms": "الشروط",
+      "and": "و",
+      "privacy": "سياسة الخصوصية، فإنك توافق عليها."
+    },
+
+    "input": {
+      "username": "اسم المستخدم",
+      "userInfoAndUsername": "اسم المستخدم أو البريد الإلكتروني أو رقم الهاتف",
+      "userInfo": "البريد الإلكتروني أو رقم الهاتف",
+      "password": "كلمة المرور",
+      "confirmPassword": "أعد إدخال كلمة المرور",
+      "firstname": "الاسم الأول",
+      "lastname": "الاسم الأخير",
+      "birthday": "تاريخ الميلاد",
+      "companyname": "اسم الشركة",
+      "companyDate": "تاريخ تسجيل الشركة",
+
+      "placeholder": {
+        "username": "أدخل اسم المستخدم",
+        "userInfo": "+90 / example@email.com",
+        "birthday": "حدد تاريخ ميلادك -->",
+        "companyDate": "حدد تاريخ التسجيل -->",
+        "companyname": "Roodx",
+        "password": "**********"
+      }
+    }
+  }
+}
