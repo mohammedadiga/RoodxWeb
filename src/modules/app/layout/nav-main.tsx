@@ -2,6 +2,7 @@
 import Link from 'next/link';
 // Components
 import { SidebarGroup, SidebarGroupContent, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from '@/components/ui/sidebar';
+// Icon
 import { LucideIcon } from 'lucide-react';
 
 export function NavMain({

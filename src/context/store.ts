@@ -1,21 +1,25 @@
 import { configureStore } from '@reduxjs/toolkit';
-// API slices
+// API 
+import { locationapiSlice } from './features/api/locationApi';
 import { serverApi } from './features/api/serverApi';
 // Reducers
+import locationReducer from './features/setting/locationSlice';
 
 const store = configureStore({
   reducer: {
+    [locationapiSlice.reducerPath]: locationapiSlice.reducer,
     [serverApi.reducerPath]: serverApi.reducer,
+    location: locationReducer,
   },
-  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(serverApi.middleware),
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(locationapiSlice.middleware).concat(serverApi.middleware),
 });
 
 // ✅ Initialize app with essential data
 const initializeApp = async () => {
   try {
-    await Promise.all([store.dispatch(serverApi.endpoints.loadUser.initiate({})).unwrap()]);
+    await Promise.all([store.dispatch(locationapiSlice.endpoints.sendIp.initiate({})).unwrap(), store.dispatch(serverApi.endpoints.loadUser.initiate({})).unwrap()]);
   } catch (error) {
-    // console.error('App initialization failed:', error);
+    console.error('App initialization failed:', error);
   }
 };
 
